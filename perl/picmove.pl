@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+## Testing version
+
 use strict;
 
 my $rep = "/Volumes/ANANT2015/MyPictures";
