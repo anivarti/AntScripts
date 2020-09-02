@@ -1,0 +1,16 @@
+## Aliases
+alias l ls -altr
+alias h history
+alias cd 'cd \!*;pwd'
+alias vi gvim
+alias startvncbig    vncserver -geometry 2560x1440 :19
+alias startvncsmall  vncserver -geometry 1680x1050 :2
+alias so source ~/.cshrc
+alias crc vi ~/.cshrc
+alias vrc vi ~/.vimrc
+alias d pwd
+alias go 'grep \!* *.v | grep -w output'
+alias gi 'grep \!* *.v | grep -w input'
+alias diffd 'diff --brief --recursive \!*'
+alias myrsync 'rsync --links -rKzP machine:\!* .'
+## Variables
